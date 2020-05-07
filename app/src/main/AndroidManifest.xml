@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yourbaristaguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Macciato"></activity>
+        <activity android:name=".Latte" />
+        <activity android:name=".Americano" />
+        <activity android:name=".Espresso" />
+        <activity android:name=".Mocha" />
+        <activity android:name=".Capuccino" />
+        <activity android:name=".TypesOf" />
+        <activity android:name=".Temp" />
+        <activity android:name=".Shot" />
+        <activity android:name=".Machine" />
+        <activity android:name=".Grind" />
+        <activity android:name=".Milk" />
+        <activity android:name=".Roast" />
+        <activity android:name=".Bean" />
+        <activity android:name=".TrainingSteps" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/machine1"
+    android:orientation="vertical">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:autoPlay="true"
+        app:showFullScreenButton="true"
+        app:showSeekBar="true"
+        app:showYouTubeButton="false"
+        app:videoId="fshfU9Yilhk" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        android:autoText="true"
+        android:cursorVisible="false"
+        android:duplicateParentState="false"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="@font/amita"
+        android:gravity="start|top"
+        android:inputType="textMultiLine|text"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="horizontal|vertical"
+        android:scrollHorizontally="false"
+        android:text="If you're looking to cut down on visits to your local coffee shop, the best home espresso machines can help you get your caffeine fix right in the comfort of your own kitchen. But an espresso machine is an investment — especially if you want one with all the bells and whistles — so it's important to consider the types of features that fit your needs..There are certain criterias which which help you to determine the right choice...one of those is the budget. whatever the budget be, always look for these features mentioned in the video..all the best for your selection...."
+        android:textColor="#FBFBFA" />
+
+</LinearLayout>

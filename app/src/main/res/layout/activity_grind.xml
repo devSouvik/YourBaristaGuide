@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/ground"
+    android:orientation="vertical">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:autoPlay="true"
+        app:showFullScreenButton="true"
+        app:showSeekBar="true"
+        app:showYouTubeButton="false"
+        app:videoId="bgJ8E6e8rko" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="372dp"
+        android:autoText="true"
+        android:cursorVisible="false"
+        android:duplicateParentState="false"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="@font/amita"
+        android:gravity="start|top"
+        android:inputType="textMultiLine|text"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="horizontal|vertical"
+        android:scrollHorizontally="false"
+        android:text="another important aspect of a perfect espresso is he coffee grind how fine or how coarse it is. Depends on the coffee grind how much will the extraction time will be ... a perfectly grinded coffee will give us an extraction time of roughly 25-32 secs..for 20grams of coffee (approx)...lets check the video to know more about coffee grind."
+        android:textColor="#FBFBFA" />
+
+</LinearLayout>

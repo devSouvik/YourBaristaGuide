@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/cap4"
+    android:orientation="vertical">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:autoPlay="true"
+        app:showFullScreenButton="true"
+        app:showSeekBar="true"
+        app:showYouTubeButton="false"
+        app:videoId="2Ao5b6uqI40" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="true"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:duplicateParentState="false"
+        android:editable="false"
+        android:ems="10"
+        android:fontFamily="@font/amita"
+        android:gravity="start|top"
+        android:inputType="textMultiLine|text"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="horizontal|vertical"
+        android:scrollHorizontally="false"
+        android:text="Outside of Italy, cappuccino is a coffee drink that today is typically composed of double espresso and hot milk, with the surface topped with foamed milk. ... The top third of the drink consists of milk foam; this foam can be decorated with artistic drawings made with the same milk, called latte art. i have seen people intentionally wiping off the cream or foam from the top of the cup to chech the depth of the foam and its consistancy. for which this foamy textture means a lot for me. Lets watch the video from an expert to check how he does it.."
+        android:textColor="#FBFBFA" />
+
+</LinearLayout>

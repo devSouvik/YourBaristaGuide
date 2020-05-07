@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/mocha5"
+    android:orientation="vertical">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:autoPlay="true"
+        app:showFullScreenButton="true"
+        app:showSeekBar="true"
+        app:showYouTubeButton="false"
+        app:videoId="aEHBmi1927g" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="true"
+        android:cursorVisible="false"
+        android:duplicateParentState="false"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="@font/amita"
+        android:gravity="start|top"
+        android:inputType="textMultiLine|text"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="horizontal|vertical"
+        android:scrollHorizontally="false"
+        android:text=" Like a caffè latte, caffè mocha is based on espresso and hot milk but with added chocolate flavouring and sweetener, typically in the form of cocoa powder and sugar. Many varieties use chocolate syrup instead, and some may contain dark or milk chocolate. Caffè mocha, in its most basic formulation, can also be referred to as hot chocolate with (e.g., a shot of) espresso added. Like cappuccino, caffè mochas typically contain the distinctive milk froth on top, although, as is common with hot chocolate, they are sometimes served with whipped cream instead. They are usually topped with a dusting of either cinnamon, sugar or cocoa powder, and marshmallows may also be added on top for flavor and decoration. A variant is white caffè mocha, made with white chocolate instead of milk or dark. There are also variants of the drink that mix the two syrups; this mixture is referred to by several names, including black and white mocha, marble mocha, tan mocha, tuxedo mocha, and zebra.
+Another variant is a mochaccino which is an espresso shot (double) with either a combination of steamed milk and cocoa powder or chocolate milk. Both mochaccinos and caffè mocha can have chocolate syrup, whipped cream and added toppings such as cinnamon, nutmeg or chocolate sprinkles.
+A third variant on the caffè mocha is to use a coffee base instead of espresso. The combination would then be coffee, steamed milk, and the added chocolate. This is the same as a cup of coffee mixed with hot chocolate. The caffeine content of this variation would then be equivalent to the coffee choice included."
+        android:textColor="#FBFBFA" />
+
+</LinearLayout>

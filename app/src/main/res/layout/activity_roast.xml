@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/roast"
+    android:orientation="vertical">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:autoPlay="true"
+        app:showFullScreenButton="true"
+        app:showSeekBar="true"
+        app:showYouTubeButton="false"
+        app:videoId="Hd5Rr-XT7AA" />
+    <EditText
+        android:id="@+id/roastEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="true"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:duplicateParentState="false"
+        android:editable="false"
+        android:ems="10"
+        android:fontFamily="@font/amita"
+        android:gravity="start|top"
+        android:inputType="textMultiLine|text"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="horizontal|vertical"
+        android:scrollHorizontally="false"
+        android:text="A very important  factor on which the taste of your espresso will depend is the roast of your coffee bean. An over roasted coffee bean will give a bitter taste destroying and supressing all the beautiful aroma and flavours of a bean and an under treated bean will be very difficult to be treated while brewing...the flavours in an under treated bean bag will be far from being recognised ...while a mediun roasted coffee bean will give us a perfect blend of sweetness, sour or the perfect touch of the strength of caffine...lets see how they can be distinguished and what they can provide us "
+        android:textColor="#FBFBFA" />
+
+</LinearLayout>

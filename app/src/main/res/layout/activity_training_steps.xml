@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/steps"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/beanButton"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+
+        android:width="400dp"
+        android:height="40dp"
+        android:text="BEANS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/roastButton"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:width="400dp"
+        android:text="ROAST"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beanButton" />
+
+    <Button
+        android:id="@+id/shotButton"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="14dp"
+        android:text="DIALING IN A PERFECT SHOT OF ESPRESSPO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roastButton" />
+
+    <Button
+        android:id="@+id/grindButton"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="14dp"
+        android:ellipsize="marquee"
+        android:text="BEAN GRIND"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shotButton" />
+
+    <Button
+        android:id="@+id/machineButton"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="14dp"
+        android:text="MACHINES"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grindButton" />
+
+    <Button
+        android:id="@+id/tempButton"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="14dp"
+        android:text="TEMPERATURE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/machineButton" />
+
+    <Button
+        android:id="@+id/milkButton"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="14dp"
+        android:text="MILK FROTHING"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tempButton" />
+
+    <Button
+        android:id="@+id/typesOfButton"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="TYPES OF ESPRESSO DRINKS "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/milkButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

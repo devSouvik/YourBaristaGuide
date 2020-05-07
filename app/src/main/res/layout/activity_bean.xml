@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/bean13"
+    android:orientation="vertical">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:autoPlay="true"
+        app:showFullScreenButton="true"
+        app:showSeekBar="true"
+        app:showYouTubeButton="false"
+        app:videoId="JCHOyimTP_o" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="true"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:duplicateParentState="false"
+        android:editable="false"
+        android:ems="10"
+        android:fontFamily="@font/amita"
+        android:gravity="start|top"
+        android:inputType="textMultiLine|text"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="horizontal|vertical"
+        android:scrollHorizontally="false"
+        android:text="Hey there !! pause !! I mean your video ...In this section we are going to learn a bout the various types of coffee beans available in the market ...we will know which tastes bitter and which tastes sour....yes you read it right !! ...coffee beans do taste sour...some even carry taste of chocolates and fruity notes ..some tastes like caramel while few gives strong earthy taste...lets now resume our video and learn on which factor these tastes depends on and how can we extract the best of them ...."
+        android:textColor="#FBFBFA" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/milk"
+    android:orientation="vertical">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:autoPlay="true"
+        app:showFullScreenButton="true"
+        app:showSeekBar="true"
+        app:showYouTubeButton="false"
+        app:videoId="0vD--H7poxU" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        android:autoText="true"
+        android:cursorVisible="false"
+        android:duplicateParentState="false"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="@font/amita"
+        android:gravity="start|top"
+        android:inputType="textMultiLine|text"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="horizontal|vertical"
+        android:scrollHorizontally="false"
+        android:text="Cappuccino and latte are espresso drinks made by mixing the espresso with frothed milk, and with steamed milk, respectively. All espresso machines will have a steam wand which is nearly double the volume of the original milk. For latte, the milk is steamed. The result of steaming is simply hot milk that is with a little bit of foam .You will need a stainless steel frothing pitcher in which to froth the milk. Frothing pitchers come in many sizes; choose the size in accordance with how much milk you are frothing. In a coffee shop, you should have a variety of pitcher sizes so that you can choose the right one for the job. While you should not start with the pitcher more than 1/3 full , you should also not have much less than this in the pitcher either, or you will have more difficulty in getting the milk to foam. Watch the video to get a detailed information of the process for  milk frothing for a perfect cup of cappuchino ot latte."
+        android:textColor="#ED1C0D" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/temp"
+    android:orientation="vertical">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:autoPlay="true"
+        app:showFullScreenButton="true"
+        app:showSeekBar="true"
+        app:showYouTubeButton="false"
+        app:videoId="UHx1OFo4OdU" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        android:autoText="true"
+        android:cursorVisible="false"
+        android:duplicateParentState="false"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="@font/amita"
+        android:gravity="start|top"
+        android:inputType="textMultiLine|text"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="horizontal|vertical"
+        android:scrollHorizontally="false"
+        android:text="Temperature though not given a major prominance in the game plays a vital role in the background while brewing a perfect shot of espresso. a  high water temperature may just burn your coffee ground giving you a burnt bitter taste in your coffee ..if you don't receive an optimum temp for your water you may not be able to extract all the flavours of your bean. Temp is a very vital point in brewing your coffee...you might now question how to reach the perfect temp..well in that case if uor are using machine with dedicated PID you will be able to set the temp of your machine ...if your machine is without a PId you might just need to set your machine on prior use for at least 10 to 15 mins...another factor is the grind of your bean...if its too fine, water will take much longer to sip throgh the beans and thus burning your coffee...lets watch the video to know more about temperature..."
+        android:textColor="#FBFBFA" />
+
+</LinearLayout>
